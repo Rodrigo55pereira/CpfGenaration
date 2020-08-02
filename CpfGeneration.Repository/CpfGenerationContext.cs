@@ -1,7 +1,7 @@
-using CpfGeneration.Domain.Models;
+using CpfGeneration.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace CpfGeneration.Repository.Data
+namespace CpfGeneration.Repository
 {
     public class CpfGenerationContext : DbContext
     {
